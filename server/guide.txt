@@ -1,0 +1,18 @@
+- [ ] Install dependencies yaitu jest
+- [ ] Buatlah file config ke database menggunakan sequelize init (isilah akun untuk test juga)
+- [ ] Lalu buatlah database menggunakan command sequelize db:create --env test
+- [ ] Lalu migrate database test nya dengan menggunakan command sequelize db:migrate --env test
+- [ ] Atau kalian bisa menambahkan script di package.json  "initdb": "sequelize db:create --env=test && sequelize db:migrate --env=test"
+- [ ] Buatlah sebuah folder test di server 
+- [ ] Untuk npm run test, maka kita set di script test "test": "NODE_ENV=test jest"
+- [ ] Buat fungsi sederhana yang menggunakan mathcers toBe, toEqual, atau menggunakan opposite dari matchers not.toBe, not.toEqual
+- [ ] Buat contoh menggunakan banyak matchers di 1 test number
+- [ ] Buat contoh menggunakan matchers untuk string regular expression toMatch
+- [ ] Menggunakan supertest untuk Testing Endpoints
+- [ ] Install supertest npm install supertest --save-dev
+- [ ] Buatlah app.js, jangan lupa install sequelize, pg, express
+- [ ] Buatlah 1 file test , contoh register =>  user.test.js
+- [ ] run test , maka akan muncul error
+- [ ] Lalu buatlah controller user untuk register, yang sesuai dengan alur test
+- [ ] Run test maka sukses
+- [ ] Lalu gunakan afterall untuk remove data dari database 
